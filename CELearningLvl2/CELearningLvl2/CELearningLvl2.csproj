@@ -9,4 +9,10 @@
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Memory">
+      <HintPath>..\..\Memory\Memory\bin\Release\Memory.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

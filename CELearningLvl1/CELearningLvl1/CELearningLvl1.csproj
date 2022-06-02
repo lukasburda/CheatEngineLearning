@@ -8,4 +8,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Memory">
+      <HintPath>..\..\Memory\Memory\bin\Release\Memory.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

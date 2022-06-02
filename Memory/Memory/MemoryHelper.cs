@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Memory.Win32
 {
-    class MemoryHelper32
+    public class MemoryHelper32
     {
         Process process;
         public MemoryHelper32(Process TargetProcess)
@@ -80,7 +80,7 @@ namespace Memory.Win32
 
 namespace Memory.Win64
 {
-    class MemoryHelper64
+    public class MemoryHelper64
     {
         Process process;
 
@@ -155,7 +155,7 @@ namespace Memory.Win64
 
 namespace Memory.Utils
 {
-    static class MemoryUtils
+    public static class MemoryUtils
     {
         public static uint OffsetCalculator(Win32.MemoryHelper32 TargetMemory, uint BaseAddress, int[] Offsets)
         {
